@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Estilos generales de toda la página */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f8fb;
+    color: #243447;
+}
+
+/* Color principal de la barra de navegación */
+.barra-navegacion {
+    background-color: #0b4f6c;
+}
+
+/* Diseño del encabezado de servicios */
+.encabezado-servicios {
+    padding: 70px 20px;
+    background: linear-gradient(135deg, #0b4f6c, #1b98b5);
+    color: white;
+}
+
+/* Tamaño y grosor del título principal */
+.encabezado-servicios h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.encabezado-servicios p {
+    max-width: 700px;
+    margin: 15px auto 0;
+    font-size: 1.1rem;
+}
+
+.tarjeta-servicio {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-servicio:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.18);
+}
+
+.icono-servicio {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.tarjeta-servicio h3 {
+    color: #0b4f6c;
+    font-weight: bold;
+}
+
+
+.tarjeta-servicio p {
+    line-height: 1.6;
+}
+
+.precio {
+    color: #197278;
+    font-weight: bold;
+}
+
+.boton-cita {
+    background-color: #0b4f6c;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+/* Cambio de color al colocar el mouse sobre el botón */
+.boton-cita:hover {
+    background-color: #083b50;
+    color: white;
+}
+
+.seccion-informacion {
+    padding: 45px 20px;
+    background-color: #dceff5;
+}
+
+/* Estilo del título de la sección informativa */
+.seccion-informacion h2 {
+    color: #0b4f6c;
+    font-weight: bold;
+}
+
+/* Diseño del pie de página */
+.pie-pagina {
+    padding: 20px;
+    background-color: #0b4f6c;
+    color: white;
+}
+
+/* Ajustes para pantallas pequeñas como celulares */
+@media (max-width: 576px) {
+    .encabezado-servicios {
+        padding: 50px 15px;
+    }
+
+    .encabezado-servicios h1 {
+        font-size: 2rem;
+    }
+}
